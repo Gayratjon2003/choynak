@@ -1,0 +1,10 @@
+{
+  "navData": {
+    "search": "Search by country, university...",
+    "forStudents": "For students",
+    "forConsultants": "For consultants",
+    "forUniversities": "For Universities"
+  },
+  "login": "Login",
+  "register": "Registration"
+}
