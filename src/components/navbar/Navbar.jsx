@@ -48,7 +48,7 @@ const Navbar = () => {
   }, []);
   return (
     <div className="navbar fixed">
-      <div className="container">
+      <div className="container-nav">
         <div className="nav-box flex justify-between w-full items-center my-2.5">
           <div className="left w-[150px] mr-[50px] mb-1">
             <div className="logo">

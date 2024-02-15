@@ -14,8 +14,11 @@ body {
   font-weight: 400;
 }
 
-.container {
+.container-nav {
   @apply max-w-[1780px] px-[15px] mx-auto;
+}
+.container {
+  @apply max-w-[1530px] px-[15px] mx-auto;
 }
 
 .App {
@@ -82,4 +85,59 @@ body {
 }
 .hero-swiper .swiper-pagination .swiper-pagination-bullet-active{
   background: #DF0606;
+}
+
+/* PlaceToStudy swiper */
+  .placesToStudy .swiper-slide {
+    width: 416px !important;
+    /* margin-left: 25px; */
+    overflow: hidden;
+    border-radius: 30px;
+  }
+  .placesToStudy .swiper-slide-prev {
+    margin-left: 25px;
+  }
+  .placesToStudy .swiper-slide-next {
+    margin-right: 150px;
+  }
+  .placesToStudy .swiper-slide-active {
+    width: 670px !important;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+
+  /* buttons */
+  .placesToStudy .swiper-button-prev {
+    top: var(--swiper-navigation-top-offset, 50%);
+    left: var(--swiper-navigation-sides-offset, 0px);
+    width: 49px !important;
+    height: 49px !important;
+    transform: rotate(180deg);
+    
+}
+
+.placesToStudy .swiper-button-prev::after {
+    background: url("./assets/img/left-arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    width: 49px !important;
+    height: 49px !important;
+}
+
+.placesToStudy .swiper-button-next {
+    width: 49px !important;
+    height: 49px !important;
+    top: var(--swiper-navigation-top-offset, 50%);
+    right: var(--swiper-navigation-sides-offset, 0px);
+}
+
+.placesToStudy .swiper-button-next::after {
+    background: url("./assets/img/left-arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 49px !important;
+    height: 49px !important;
+    margin-bottom: 40px;
+    content: "";
 }
