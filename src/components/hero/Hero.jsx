@@ -2,8 +2,8 @@ import React from "react";
 import heroImg from "../../assets/img/hero1.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
-
+import { Autoplay, Pagination } from "swiper/modules";
+import i18next from "i18next";
 // Import Swiper styles
 import "swiper/css";
 
@@ -19,64 +19,36 @@ const Hero = () => {
             pagination={{
               clickable: true,
             }}
+            autoplay={{
+              delay: 3500,
+              disableOnInteraction: false,
+            }}
             navigation={true}
-            modules={[Pagination]}
+            modules={[Autoplay, Pagination]}
             className="hero-swiper"
           >
-            <SwiperSlide>
+            {i18next
+                .t("heroData.cards", { returnObjects: true })
+                .map((item) => (
+                  <SwiperSlide key={item.id}>
               <div className="cover flex justify-between items-center">
                 <div className="left w-1/2 flex flex-col items-start text-left">
                   <h1 className="text-[96px]">
-                    Самые крутые студенты только для вас!
+                    {item.title}
                   </h1>
                   <p className="text-[40px] leading-[55px]">
-                    Спешите оставить заявку!
+                    {item.text}
                   </p>
                   <button className="bg-green rounded-xl nav-login-btn text-xl text-white py-4 px-5 ">
-                    Оставить заявку
+                    {item.btn}
                   </button>
                 </div>
                 <div className="right w-1/2">
-                  <img src={heroImg} alt="Error" />
+                  <img src={process.env.PUBLIC_URL + item.img} alt="Error" className="min-h-[739px]" />
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="cover flex justify-between items-center">
-                <div className="left w-1/2">
-                  <h1 className="text-[96px]">
-                    222Самые крутые студенты только для вас!
-                  </h1>
-                  <p className="text-[40px] leading-[55px]">
-                    Спешите оставить заявку!
-                  </p>
-                  <button className="bg-green rounded-xl nav-login-btn text-xl text-white py-4 px-5 ">
-                    Оставить заявку
-                  </button>
-                </div>
-                <div className="right w-1/2">
-                  <img src={heroImg} alt="Error" />
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="cover flex justify-between items-center">
-                <div className="left w-1/2">
-                  <h1 className="text-[96px]">
-                    33Самые крутые студенты только для вас!
-                  </h1>
-                  <p className="text-[40px] leading-[55px]">
-                    Спешите оставить заявку!
-                  </p>
-                  <button className="bg-green rounded-xl nav-login-btn text-xl text-white py-4 px-5 ">
-                    Оставить заявку
-                  </button>
-                </div>
-                <div className="right w-1/2">
-                  <img src={heroImg} alt="Error" />
-                </div>
-              </div>
-            </SwiperSlide>
+                ))}
           </Swiper>
         </div>
       </div>
