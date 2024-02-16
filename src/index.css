@@ -17,6 +17,7 @@ body {
 .container-nav {
   @apply max-w-[1780px] px-[15px] mx-auto;
 }
+
 .container {
   @apply max-w-[1530px] px-[15px] mx-auto;
 }
@@ -35,13 +36,16 @@ body {
   height: 96px;
   z-index: 999;
 }
+
 .nav-search-btn::placeholder {
-  color: #474545; 
+  color: #474545;
 }
+
 .nav-search {
   border: 1px solid #000000;
   border-radius: 12px;
 }
+
 .nav-search-btn:focus {
   background-color: transparent;
   outline: none;
@@ -70,6 +74,7 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
 .hero-swiper .swiper-pagination {
   /* background: green; */
   width: 178px !important;
@@ -77,67 +82,132 @@ body {
   justify-content: space-between;
   bottom: 20px !important;
 }
-.hero-swiper .swiper-pagination .swiper-pagination-bullet{
+
+.hero-swiper .swiper-pagination .swiper-pagination-bullet {
   background: #D9D9D9;
   width: 70px;
   height: 15px;
   border-radius: 0;
 }
-.hero-swiper .swiper-pagination .swiper-pagination-bullet-active{
+
+.hero-swiper .swiper-pagination .swiper-pagination-bullet-active {
   background: #DF0606;
 }
 
-/* PlaceToStudy swiper */
-  .placesToStudy .swiper-slide {
-    width: 416px !important;
-    /* margin-left: 25px; */
-    overflow: hidden;
-    border-radius: 30px;
-  }
-  .placesToStudy .swiper-slide-prev {
-    margin-left: 25px;
-  }
-  .placesToStudy .swiper-slide-next {
-    margin-right: 150px;
-  }
-  .placesToStudy .swiper-slide-active {
-    width: 670px !important;
-    overflow: hidden;
-    border-radius: 30px;
-  }
+.hero-swiper .swiper-button-prev, .hero-swiper .swiper-button-next {
+  display: none;
+}
 
-  /* buttons */
-  .placesToStudy .swiper-button-prev {
-    top: var(--swiper-navigation-top-offset, 50%);
-    left: var(--swiper-navigation-sides-offset, 0px);
-    width: 49px !important;
-    height: 49px !important;
-    transform: rotate(180deg);
-    
+/* PlaceToStudy swiper */
+.placesToStudy .swiper-slide {
+  width: 416px !important;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.placesToStudy .swiper-slide-prev {
+  margin-left: 25px;
+}
+
+.placesToStudy .swiper-slide-next {
+  margin-right: 150px;
+}
+
+.placesToStudy .swiper-slide-active {
+  width: 670px !important;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+/* buttons */
+.placesToStudy .swiper-button-prev {
+  top: var(--swiper-navigation-top-offset, 50%);
+  left: var(--swiper-navigation-sides-offset, 0px);
+  width: 49px !important;
+  height: 49px !important;
+  transform: rotate(180deg);
+
 }
 
 .placesToStudy .swiper-button-prev::after {
-    background: url("./assets/img/left-arrow.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    content: '';
-    width: 49px !important;
-    height: 49px !important;
+  background: url("./assets/img/left-arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  width: 49px !important;
+  height: 49px !important;
 }
 
 .placesToStudy .swiper-button-next {
-    width: 49px !important;
-    height: 49px !important;
-    top: var(--swiper-navigation-top-offset, 50%);
-    right: var(--swiper-navigation-sides-offset, 0px);
+  width: 49px !important;
+  height: 49px !important;
+  top: var(--swiper-navigation-top-offset, 50%);
+  right: var(--swiper-navigation-sides-offset, 0px);
 }
 
 .placesToStudy .swiper-button-next::after {
-    background: url("./assets/img/left-arrow.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 49px !important;
-    height: 49px !important;
-    margin-bottom: 40px;
-    content: "";
+  background: url("./assets/img/left-arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 49px !important;
+  height: 49px !important;
+  margin-bottom: 40px;
+  content: "";
+}
+
+.topUniversities .swiper-button-prev {
+  top: var(--swiper-navigation-top-offset, 50%);
+  left: var(--swiper-navigation-sides-offset, 0px);
+  width: 49px !important;
+  height: 49px !important;
+  transform: rotate(180deg);
+
+}
+
+.topUniversities .swiper-button-prev::after {
+  background: url("./assets/img/left-arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  width: 49px !important;
+  height: 49px !important;
+}
+
+.topUniversities .swiper-button-next {
+  width: 49px !important;
+  height: 49px !important;
+  top: var(--swiper-navigation-top-offset, 50%);
+  right: var(--swiper-navigation-sides-offset, 0px);
+}
+
+.topUniversities .swiper-button-next::after {
+  background: url("./assets/img/left-arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 49px !important;
+  height: 49px !important;
+  margin-bottom: 40px;
+  content: "";
+}
+
+.topUniversities .swiper-slide {
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.topUniversities .swiper-slide-prev {
+  margin-left: 25px;
+}
+
+.footer a:hover {
+  color: #04242d;
+}
+
+.card0 {
+  background: rgba(43.65, 61.16, 123.25, 0.8);
+  transition: 0.3s ease all;
+}
+
+.card0-control:hover .card0 {
+  opacity: 100;
 }

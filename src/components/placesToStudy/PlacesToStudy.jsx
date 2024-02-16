@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import leftArrow from "../../assets/img/left-arrow.png";
-import { Card } from "../index";
+import { Card, Card0 } from "../index";
 import flagEn from "../../assets/img/flag-en.png";
 import img from "../../assets/img/placesToStudy.png";
 import { useTranslation } from "react-i18next";
@@ -12,6 +12,20 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
+const data = [
+  {
+    img: img,
+    title: "УЧЕБА В США"
+  },
+  {
+    img: img,
+    title: "22УЧЕБА В США"
+  },
+  {
+    img: img,
+    title: "33УЧЕБА В США"
+  },
+]
 const PlacesToStudy = () => {
   const { t } = useTranslation();
   return (
@@ -39,39 +53,18 @@ const PlacesToStudy = () => {
               modules={[Pagination, Navigation]}
               className="placesToStudy"
             >
-              <SwiperSlide>
-                <Card
+              {data?.map((item,id)=> (
+                <SwiperSlide key={id}>
+                <Card0
                   width={674}
                   height={450}
                   id={""}
-                  title=""
-                  location=""
-                  flag={""}
+                  title={item?.title}
                   img={img}
                 />
               </SwiperSlide>
-              <SwiperSlide>
-                <Card
-                  width={674}
-                  height={450}
-                  id={""}
-                  title=""
-                  location=""
-                  flag={""}
-                  img={img}
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Card
-                  width={674}
-                  height={450}
-                  id={""}
-                  title=""
-                  location=""
-                  flag={""}
-                  img={img}
-                />
-              </SwiperSlide>
+              ))}
+              
             </Swiper>
           </div>
         </div>

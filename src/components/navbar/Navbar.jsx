@@ -52,7 +52,9 @@ const Navbar = () => {
         <div className="nav-box flex justify-between w-full items-center my-2.5">
           <div className="left w-[150px] mr-[50px] mb-1">
             <div className="logo">
+              <Link to={routes.HOME} >
               <img src={logoImg} alt="Logo" />
+              </Link>
             </div>
           </div>
           <div className="right flex items-center justify-between w-full gap-x-[52px]">
