@@ -1,9 +1,10 @@
 import React from 'react'
-
+import {Benefits, Filter} from "../index";
 const ForStudents = () => {
   return (
     <div>
-      ForStudents
+      <Benefits />
+      <Filter />
     </div>
   )
 }

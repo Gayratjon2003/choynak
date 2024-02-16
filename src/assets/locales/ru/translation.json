@@ -67,6 +67,41 @@
     },
     "allRightReserved": "Choynak. Все права защищены."
   },
+  "benefits": {
+    "title": "Какие выгоды от нас?",
+    "data": [
+      {
+        "id": 1,
+        "img": "/img/benefits/benefit1.png",
+        "num": 12,
+        "text": "партнерских университетов"
+      },
+      {
+        "id": 2,
+        "img": "/img/benefits/benefit2.png",
+        "num": 500,
+        "text": "успешных студентов"
+      },
+      {
+        "id": 3,
+        "img": "/img/benefits/benefit3.png",
+        "num": 100,
+        "text": "направлении учебы"
+      },
+      {
+        "id": 4,
+        "img": "/img/benefits/benefit4.png",
+        "num": 100,
+        "text": "стран обучения"
+      },
+      {
+        "id": 5,
+        "img": "/img/benefits/benefit5.png",
+        "num": 100,
+        "text": "программ обучения"
+      }
+    ]
+  },
   "login": "Войти",
   "register": "Регистрация",
   "viewAll": "Посмотреть все"
