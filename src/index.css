@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  @apply max-w-[1530px] px-[15px] mx-auto;
+  @apply max-w-[1565px] px-[15px] mx-auto;
 }
 
 .App {
@@ -210,4 +210,16 @@ body {
 
 .card0-control:hover .card0 {
   opacity: 100;
+}
+.filter-select-border {
+  border: 1px solid black;
+}
+.filter-selects select {
+  appearance: none; /* Hide default arrow */
+  background-image: url("./assets/img/select-arrow.png"); /* Custom arrow image */
+  background-repeat: no-repeat;
+  background-position: right 15px top 50%; /* Position arrow */
+  padding-right: 30px; /* Make room for arrow */
+  cursor: pointer; /* Indicate clickable area */
+  outline: none;
 }

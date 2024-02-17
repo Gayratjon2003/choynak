@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import img from "../../assets/img/hero1.png";
 import i18next from "i18next";
 
 const Benefits = () => {
