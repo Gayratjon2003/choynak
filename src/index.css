@@ -252,3 +252,32 @@ body {
   cursor: pointer;
   outline: none;
 }
+
+.registerForm h1 {
+  font-weight: bold;
+}
+
+.registerForm input, .registerForm select, .register-input  {
+  border: 1px solid #000000;
+  border-radius: 8px;
+  background: rgba(217, 217, 217, 0);
+  padding: 15px 28px;
+  outline: none;
+  font-weight: 400;
+  height: 60px;
+  box-sizing: border-box;
+}
+.register-input-file {
+  background: #CDCDCD;
+}
+
+.registerForm select {
+  appearance: none;
+  background-image: url("./assets/img/select-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right 15px top 50%;
+  padding-right: 30px;
+  cursor: pointer;
+  outline: none;
+  box-sizing: border-box;
+}

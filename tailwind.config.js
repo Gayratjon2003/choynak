@@ -7,7 +7,19 @@ module.exports = {
         "green": "#27A083"
       },
       fontSize: {
+        25: "25px",
         30: "30px"
+      },
+      minWidth: {
+        396: "392px",
+        550: "540px",
+        260: "256px",
+      },
+      padding: {
+        15: "15px"
+      },
+      width: {
+        396: "396px"
       }
     },
   },
