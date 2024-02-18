@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import leftArrow from "../../assets/img/left-arrow.png";
+import leftArrow from "../../assets/img/left-icon-regular.png";
 import { Card, Card0 } from "../index";
 import flagEn from "../../assets/img/flag-en.png";
 import img from "../../assets/img/placesToStudy.png";
@@ -29,7 +29,7 @@ const data = [
 const PlacesToStudy = () => {
   const { t } = useTranslation();
   return (
-    <section className="placesToStudy">
+    <section className="placesToStudy mt-[100px]">
       <div className="container">
         <div className="box">
           <div className="top flex justify-between items-center font-bold text-4xl mb-5">

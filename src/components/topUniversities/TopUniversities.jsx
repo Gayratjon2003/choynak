@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import leftArrow from "../../assets/img/left-arrow.png";
+import leftArrow from "../../assets/img/left-icon-regular.png";
 import { Card } from "../index";
 import flagEn from "../../assets/img/flag-en.png";
-import img from "../../assets/img/placesToStudy.png";
 import topUni1 from "../../assets/img/topUni1.png";
 import topUni2 from "../../assets/img/topUni2.png";
 import topUni3 from "../../assets/img/topUni3.png";

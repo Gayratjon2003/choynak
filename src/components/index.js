@@ -11,3 +11,4 @@ export { default as Card } from "./cards/Card";
 export { default as Card0 } from "./cards/Card0";
 export { default as Benefits } from "./benefits/Benefits";
 export { default as Filter } from "./filter/Filter";
+export { default as VisaCalc } from "./visaCalc/VisaCalc";

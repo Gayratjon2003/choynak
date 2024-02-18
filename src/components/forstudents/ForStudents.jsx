@@ -1,9 +1,10 @@
 import React from 'react'
-import {Benefits, Filter} from "../index";
+import {Benefits, Filter, VisaCalc} from "../index";
 const ForStudents = () => {
   return (
     <div>
       <Benefits />
+      <VisaCalc />
       <Filter />
     </div>
   )
