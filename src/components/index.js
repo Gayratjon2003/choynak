@@ -13,3 +13,4 @@ export { default as Benefits } from "./benefits/Benefits";
 export { default as Filter } from "./filter/Filter";
 export { default as VisaCalc } from "./visaCalc/VisaCalc";
 export { default as RegisterForm } from "./registerForm/RegisterForm";
+export { default as Faq } from "./faq/Faq";

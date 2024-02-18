@@ -9,7 +9,7 @@ import { routes } from "../../constants";
 const Footer = () => {
   const { t } = useTranslation();
   return (
-    <footer className="footer mt-[114px] bg-[#418172]">
+    <footer className="footer bg-[#418172]">
       <div className="footer-container ml-[180px] mr-[406px] pb-[120px]">
         <div className="box flex justify-between pt-[106px] font-normal text-white gap-x-[25px]">
           <div className="logo w-1/5">

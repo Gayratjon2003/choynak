@@ -20,26 +20,26 @@ const topUniversities = [
     title: "Университет Ливерпуля",
     flag: flagEn,
     location: "Великобритания",
-    img: topUni1
+    img: topUni1,
   },
   {
     title: "Университет Стэнфорд",
     flag: flagEn,
     location: "Соединенные Штаты Америки",
-    img: topUni2
+    img: topUni2,
   },
   {
     title: "Университет Вебстер",
     flag: flagEn,
     location: "Соединенные Штаты Америки",
-    img: topUni3
+    img: topUni3,
   },
-]
+];
 
 const TopUniversities = () => {
   const { t } = useTranslation();
   return (
-    <section className="topUniversities mt-[77px]">
+    <section className="topUniversities mt-[77px] mb-[144px]">
       <div className="container">
         <div className="box">
           <div className="top flex justify-between items-center font-bold text-4xl mb-5">
@@ -54,7 +54,6 @@ const TopUniversities = () => {
           {/* Swiper */}
 
           <div className="mt-4">
-           
             <Swiper
               slidesPerView={3}
               centeredSlides={true}
@@ -64,20 +63,19 @@ const TopUniversities = () => {
               modules={[Pagination, Navigation]}
               className="topUniversities"
             >
-               {topUniversities?.map((item,id)=> (
+              {topUniversities?.map((item, id) => (
                 <SwiperSlide key={id}>
-                <Card
-                  width={509}
-                  height={422}
-                  id={""}
-                  title={item?.title}
-                  location={item?.location}
-                  flag={item?.flagEn}
-                  img={item?.img}
-                />
-              </SwiperSlide>
-            ))}
-              
+                  <Card
+                    width={509}
+                    height={422}
+                    id={""}
+                    title={item?.title}
+                    location={item?.location}
+                    flag={item?.flagEn}
+                    img={item?.img}
+                  />
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </div>

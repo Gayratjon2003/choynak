@@ -281,3 +281,24 @@ body {
   outline: none;
   box-sizing: border-box;
 }
+.faq {
+  background: url("./assets/img/faq-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 724px;
+}
+.faq .faq-child {
+  background-color: #0000007a;
+  height: 724px;
+}
+.faq summary {
+  list-style: none;
+  cursor: pointer;
+}
+.faq .summary-arrow {
+  transform: rotate(135deg);
+}
+.faq details {
+  border-bottom: 1px solid white;
+}

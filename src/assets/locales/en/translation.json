@@ -5,6 +5,370 @@
     "forConsultants": "For consultants",
     "forUniversities": "For Universities"
   },
+  "heroData": {
+    "cards": [
+      {
+        "id": 1,
+        "title": "The coolest students just for you!",
+        "text": "Hurry up to leave a request!",
+        "img": "/img/hero/img1.png",
+        "btn": "Leave a request"
+      },
+      {
+        "id": 2,
+        "title": "22The coolest students just for you!",
+        "text": "Hurry up to leave a request!",
+        "img": "/img/hero/img2.png",
+        "btn": "Leave a request"
+      },
+      {
+        "id": 3,
+        "title": "33The coolest students just for you!",
+        "text": "Hurry up to leave a request!",
+        "img": "/img/hero/img3.png",
+        "btn": "Leave a request"
+      }
+    ]
+  },
+  "placesToStudy": {
+    "title": "Explore the best places to study:"
+  },
+  "topUniversities": {
+    "title": "TOP Universities:"
+  },
+  "footer": {
+    "location": "Republic of Uzbekistan, Andijan region, Andijan, Frunzen street, 4",
+    "studyAbroad": {
+      "title": "Study abroad:",
+      "data": [
+        {
+          "id": 1,
+          "text": "Study in the USA",
+          "link": "/"
+        },
+        {
+          "id": 2,
+          "text": "Study in Malaysia",
+          "link": "/"
+        },
+        {
+          "id": 3,
+          "text": "Study in France",
+          "link": "/"
+        }
+      ]
+    },
+    "support": {
+      "title": "Support:",
+      "conditions": {
+        "title": "Working conditions",
+        "link": "/"
+      }
+    },
+    "allRightReserved": "Choynak. All rights reserved."
+  },
+  "benefits": {
+    "title": "What benefits do we have?",
+    "data": [
+      {
+        "id": 1,
+        "img": "/img/benefits/benefit1.png",
+        "num": 12,
+        "text": "partner universities"
+      },
+      {
+        "id": 2,
+        "img": "/img/benefits/benefit2.png",
+        "num": 500,
+        "text": "successful students"
+      },
+      {
+        "id": 3,
+        "img": "/img/benefits/benefit3.png",
+        "num": 100,
+        "text": "directions of study"
+      },
+      {
+        "id": 4,
+        "img": "/img/benefits/benefit4.png",
+        "num": 100,
+        "text": "countries of study"
+      },
+      {
+        "id": 5,
+        "img": "/img/benefits/benefit5.png",
+        "num": 100,
+        "text": "training programs"
+      }
+    ]
+  },
+  "visaCalc": {
+    "title": "VISA CALCULATOR",
+    "text": "ENTER YOUR DETAILS AND FIND OUT THE POSSIBILITIES OF OBTAINING A VISA:",
+    "age": "Your age:",
+    "gender": [
+      {
+        "id": 1,
+        "name": "Man"
+      },
+      {
+        "id": 2,
+        "name": "Woman"
+      }
+    ],
+    "scholarship": [
+      {
+        "id": 1,
+        "name": "Scholarship 0%-50%"
+      },
+      {
+        "id": 2,
+        "name": "Scholarship 50%-100%"
+      }
+    ],
+    "course": [
+      {
+        "id": 1,
+        "name": "Preparatory course"
+      },
+      {
+        "id": 2,
+        "name": "Other"
+      }
+    ],
+    "location": [
+      {
+        "id": 1,
+        "name": "City Center"
+      },
+      {
+        "id": 2,
+        "name": "Out of town"
+      }
+    ],
+    "takingVisa": "Visa availability:"
+  },
+  "filter": {
+    "title": "Filter:",
+    "apply": "Apply filter",
+    "allCountry": {
+      "title": "All countries",
+      "data": [
+        {
+          "id": 1,
+          "name": "Uzbekistan",
+          "val": "uz"
+        },
+        {
+          "id": 2,
+          "name": "USA",
+          "val": "us"
+        },
+        {
+          "id": 3,
+          "name": "Russia",
+          "val": "ru"
+        }
+      ]
+    },
+    "direction": {
+      "title": "Direction",
+      "data": [
+        {
+          "id": 1,
+          "name": "Computer Engineering"
+        },
+        {
+          "id": 2,
+          "name": "Artistic"
+        },
+        {
+          "id": 3,
+          "name": "Math"
+        }
+      ]
+    },
+    "lang": {
+      "title": "Language of instruction",
+      "data": [
+        {
+          "id": 1,
+          "name": "Uzbek",
+          "val": "uz"
+        },
+        {
+          "id": 2,
+          "name": "Russian",
+          "val": "ru"
+        },
+        {
+          "id": 3,
+          "name": "English",
+          "val": "en"
+        }
+      ]
+    },
+    "program": {
+      "title": "Training program",
+      "data": [
+        {
+          "id": 1,
+          "name": "Bachelor"
+        },
+        {
+          "id": 2,
+          "name": "Master's degree"
+        },
+        {
+          "id": 3,
+          "name": "Doctorate"
+        },
+        {
+          "id": 4,
+          "name": "PhD"
+        }
+      ]
+    },
+    "reqLang": {
+      "title": "Language requirements",
+      "data": [
+        {
+          "id": 1,
+          "name": "IELTS 6+"
+        },
+        {
+          "id": 2,
+          "name": "IELTS 7+"
+        },
+        {
+          "id": 3,
+          "name": "IELTS 8+"
+        }
+      ]
+    },
+    "startSemester": {
+      "title": "Semester start",
+      "data": [
+        {
+          "id": 1,
+          "name": "Summer Term"
+        },
+        {
+          "id": 2,
+          "name": "Winter Term"
+        },
+        {
+          "id": 3,
+          "name": "Fall Semester"
+        }
+      ]
+    }
+  },
+  "registerForm": {
+    "title": "STUDENT REGISTRATION FORM:",
+    "sendBtn": "SEND REQUEST",
+    "personalData": {
+      "title": "PERSONAL DATA",
+      "lName": "Your last name:",
+      "fName": "Your name:"
+    },
+    "passportData": {
+      "title": "PASSPORT DATA",
+      "seriya": "Passport series:",
+      "number": "Passport number:",
+      "fileLimit": "Upload file (.jpg, .pdf up to 5 mb)"
+    },
+    "contactData": {
+      "title": "CONTACT DETAILS",
+      "phoneNum": "Phone number:",
+      "email": "Email address:",
+      "country": "Country:",
+      "city": "City",
+      "street": "Street, house"
+    },
+    "education": {
+      "title": "EDUCATION",
+      "endingYear": "End Year:",
+      "fileLimit": "Upload file (.jpg, .pdf up to 5 mb)",
+      "selectList": {
+        "data": [
+          {
+            "id": 1,
+            "name": "Select from the list:"
+          },
+          {
+            "id": 2,
+            "name": "Formal"
+          },
+          {
+            "id": 3,
+            "name": "Unofficial"
+          },
+          {
+            "id": 4,
+            "name": "Informal"
+          }
+        ]
+      }
+    },
+    "certificateLang": {
+      "title": "LANGUAGE CERTIFICATES",
+      "level": "Level:",
+      "recievedYear": "Year received:",
+      "limitData": "Upload file (.jpg, .pdf up to 5 mb)",
+      "data": [
+        {
+          "id": 1,
+          "name": "Certificate type:"
+        },
+        {
+          "id": 2,
+          "name": "IELTS"
+        },
+        {
+          "id": 3,
+          "name": "SAT"
+        },
+        {
+          "id": 4,
+          "name": "TOEFL"
+        }
+      ]
+    },
+    "otherData": {
+      "title": "OTHER DATA",
+      "limitFile1": "Upload a file (.jpg up to 2 MB)",
+      "file1": "Your 3x4 photo on a white background",
+      "limitFile2": "Upload a file (.pdf up to 5 MB)",
+      "file2": "CV - Upload your resume",
+      "file3Limit": "Upload file (.zip up to 10 MB)",
+      "file3": "Other documents, Upload all additional documents into one .zip folder and upload here"
+    },
+    "sponsor": {
+      "title": "SPONSOR INFORMATION",
+      "name": "Sponsor's name:",
+      "relationship": "Relationship:",
+      "telNumber": "Sponsor's phone number:"
+    }
+  },
+  "faq": {
+    "title": "Product & Service",
+    "ask": "Frequently asked questions!",
+    "data": [
+      {
+        "id": 1,
+        "question": "What services and products do you offer?",
+        "answer": "Euismod lacinia and quis risus sed vulputate odio ut But in the mass of ugly life. But sad, not yet sad."
+      },
+      {
+        "id": 2,
+        "question": "What is your current highest-rated project?",
+        "answer": "Now my very throat is full of life. The football writer promotes football as a beer to drink. The pain itself needs to be watched."
+      }
+    ]
+  },
   "login": "Login",
-  "register": "Registration"
+   "register": "Registration",
+   "viewAll": "View All",
+   "showMore": "SHOW MORE"
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Benefits, Filter, VisaCalc, RegisterForm} from "../index";
+import {Benefits, Filter, VisaCalc, RegisterForm, Faq} from "../index";
 const ForStudents = () => {
   return (
     <div>
@@ -7,6 +7,7 @@ const ForStudents = () => {
       <VisaCalc />
       <Filter />
       <RegisterForm />
+      <Faq />
     </div>
   )
 }
